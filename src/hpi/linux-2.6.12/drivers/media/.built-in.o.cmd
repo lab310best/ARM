@@ -1,0 +1,1 @@
+cmd_drivers/media/built-in.o :=  /usr/local/arm/3.4.1/bin/arm-linux-ld -EL   -r -o drivers/media/built-in.o drivers/media/video/built-in.o drivers/media/radio/built-in.o drivers/media/dvb/built-in.o drivers/media/common/built-in.o

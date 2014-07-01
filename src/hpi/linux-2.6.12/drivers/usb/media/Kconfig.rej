@@ -1,0 +1,26 @@
+***************
+*** 210,213 ****
+  	  To compile this driver as a module, choose M here: the
+  	  module will be called pwc.
+  
+  
+--- 210,228 ----
+  	  To compile this driver as a module, choose M here: the
+  	  module will be called pwc.
+  
++ config USB_SPCA5XX
++ 	tristate "USB SPCA5XX Sunplus/Vimicro/Sonix jpeg Cameras"
++ 	depends on USB && VIDEO_DEV
++ 	---help---
++ 	  Say Y or M here if you want to use one of these webcams:
++            
++ 	  The built-in microphone is enabled by selecting USB Audio support.
++ 
++ 	  This driver uses the Video For Linux API. You must say Y or M to
++ 	  "Video For Linux" (under Character Devices) to use this driver.
++ 	  Information on this API and pointers to "v4l" programs may be found
++ 	  at <file:Documentation/video4linux/API.html>.
++ 
++ 	  To compile this driver as a module, choose M here: the
++ 	  module will be called spca5xx.
+  

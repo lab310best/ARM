@@ -1,0 +1,1 @@
+cmd_net/bluetooth/rfcomm/rfcomm.o := /usr/local/arm/3.4.1/bin/arm-linux-ld -EL   -r -o net/bluetooth/rfcomm/rfcomm.o net/bluetooth/rfcomm/core.o net/bluetooth/rfcomm/sock.o net/bluetooth/rfcomm/crc.o net/bluetooth/rfcomm/tty.o

@@ -1,0 +1,1 @@
+#define CONFIG_CPU_S3C2410 1

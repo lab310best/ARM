@@ -1,0 +1,1 @@
+#undef CONFIG_BT_HCIBCM203X

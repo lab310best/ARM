@@ -1,0 +1,1 @@
+#define CONFIG_MTD_BLOCK2MTD 1

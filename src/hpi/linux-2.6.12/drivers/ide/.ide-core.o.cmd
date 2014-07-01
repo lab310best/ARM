@@ -1,0 +1,1 @@
+cmd_drivers/ide/ide-core.o := /usr/local/arm/3.4.1/bin/arm-linux-ld -EL   -r -o drivers/ide/ide-core.o drivers/ide/ide.o drivers/ide/ide-io.o drivers/ide/ide-iops.o drivers/ide/ide-lib.o drivers/ide/ide-probe.o drivers/ide/ide-taskfile.o drivers/ide/ide-proc.o

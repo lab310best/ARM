@@ -1,0 +1,1 @@
+#define CONFIG_S3C2440_18B20 1

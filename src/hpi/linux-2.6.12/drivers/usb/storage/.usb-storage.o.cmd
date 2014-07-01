@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/usb-storage.o := /usr/local/arm/3.4.1/bin/arm-linux-ld -EL   -r -o drivers/usb/storage/usb-storage.o drivers/usb/storage/scsiglue.o drivers/usb/storage/protocol.o drivers/usb/storage/transport.o drivers/usb/storage/usb.o drivers/usb/storage/initializers.o drivers/usb/storage/debug.o drivers/usb/storage/sddr09.o drivers/usb/storage/sddr55.o

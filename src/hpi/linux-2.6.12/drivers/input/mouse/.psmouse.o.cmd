@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/psmouse.o := /usr/local/arm/3.4.1/bin/arm-linux-ld -EL   -r -o drivers/input/mouse/psmouse.o drivers/input/mouse/psmouse-base.o drivers/input/mouse/alps.o drivers/input/mouse/logips2pp.o drivers/input/mouse/synaptics.o

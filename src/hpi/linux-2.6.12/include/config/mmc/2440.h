@@ -1,0 +1,1 @@
+#define CONFIG_MMC_2440 1

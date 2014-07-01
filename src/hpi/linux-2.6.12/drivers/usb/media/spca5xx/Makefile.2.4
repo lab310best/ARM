@@ -1,0 +1,9 @@
+
+spca5xx-objs := spcadecoder.o spca_core.o
+
+obj-$(CONFIG_USB_SPCA5XX) += spca5xx.o
+
+include $(TOPDIR)/Rules.make
+
+spca5xx.o: $(spca5xx-objs)
+	$(LD) -r -o $@ $(spca5xx-objs)

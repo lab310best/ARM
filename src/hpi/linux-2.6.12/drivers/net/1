@@ -1,0 +1,2 @@
+#!/bin/sh
+emacs /home/fla/linux-2.6.12/arch/arm/mach-s3c2410/mach-smdk2410.c

@@ -1,0 +1,1 @@
+#undef CONFIG_S3C2410_TS_ADC

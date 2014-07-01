@@ -1,0 +1,1 @@
+cmd_net/bluetooth/bluetooth.o := /usr/local/arm/3.4.1/bin/arm-linux-ld -EL   -r -o net/bluetooth/bluetooth.o net/bluetooth/af_bluetooth.o net/bluetooth/hci_core.o net/bluetooth/hci_conn.o net/bluetooth/hci_event.o net/bluetooth/hci_sock.o net/bluetooth/hci_sysfs.o net/bluetooth/lib.o

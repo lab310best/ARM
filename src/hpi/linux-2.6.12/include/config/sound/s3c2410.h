@@ -1,0 +1,1 @@
+#define CONFIG_SOUND_S3C2410 1

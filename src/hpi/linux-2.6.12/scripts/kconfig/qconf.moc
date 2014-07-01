@@ -1,0 +1,470 @@
+/****************************************************************************
+** ConfigView meta object code from reading C++ file 'qconf.h'
+**
+** Created: Sat Aug 4 08:25:11 2007
+**      by: The Qt MOC ($Id: qt/src/moc/moc.y   2.3.1   edited 2001-04-23 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#define Q_MOC_OUTPUT_REVISION 9
+#elif Q_MOC_OUTPUT_REVISION != 9
+#error "Moc format conflict - please regenerate all moc files"
+#endif
+
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+
+
+const char *ConfigView::className() const
+{
+    return "ConfigView";
+}
+
+QMetaObject *ConfigView::metaObj = 0;
+
+void ConfigView::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( qstrcmp(QVBox::className(), "QVBox") != 0 )
+	badSuperclassWarning("ConfigView","QVBox");
+    (void) staticMetaObject();
+}
+
+#ifndef QT_NO_TRANSLATION
+
+QString ConfigView::tr(const char* s)
+{
+    return qApp->translate( "ConfigView", s, 0 );
+}
+
+QString ConfigView::tr(const char* s, const char * c)
+{
+    return qApp->translate( "ConfigView", s, c );
+}
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* ConfigView::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    (void) QVBox::staticMetaObject();
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    QMetaData::Access *slot_tbl_access = 0;
+    metaObj = QMetaObject::new_metaobject(
+	"ConfigView", "QVBox",
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    metaObj->set_slot_access( slot_tbl_access );
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    return metaObj;
+}
+
+
+const char *ConfigList::className() const
+{
+    return "ConfigList";
+}
+
+QMetaObject *ConfigList::metaObj = 0;
+
+void ConfigList::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( qstrcmp(QListView::className(), "QListView") != 0 )
+	badSuperclassWarning("ConfigList","QListView");
+    (void) staticMetaObject();
+}
+
+#ifndef QT_NO_TRANSLATION
+
+QString ConfigList::tr(const char* s)
+{
+    return qApp->translate( "ConfigList", s, 0 );
+}
+
+QString ConfigList::tr(const char* s, const char * c)
+{
+    return qApp->translate( "ConfigList", s, c );
+}
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* ConfigList::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    (void) QListView::staticMetaObject();
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    typedef void (ConfigList::*m1_t0)(struct menu*);
+    typedef void (QObject::*om1_t0)(struct menu*);
+    typedef void (ConfigList::*m1_t1)(ConfigItem*);
+    typedef void (QObject::*om1_t1)(ConfigItem*);
+    typedef void (ConfigList::*m1_t2)(ConfigItem*,tristate);
+    typedef void (QObject::*om1_t2)(ConfigItem*,tristate);
+    typedef void (ConfigList::*m1_t3)(ConfigItem*);
+    typedef void (QObject::*om1_t3)(ConfigItem*);
+    typedef void (ConfigList::*m1_t4)();
+    typedef void (QObject::*om1_t4)();
+    m1_t0 v1_0 = &ConfigList::setRootMenu;
+    om1_t0 ov1_0 = (om1_t0)v1_0;
+    m1_t1 v1_1 = &ConfigList::updateList;
+    om1_t1 ov1_1 = (om1_t1)v1_1;
+    m1_t2 v1_2 = &ConfigList::setValue;
+    om1_t2 ov1_2 = (om1_t2)v1_2;
+    m1_t3 v1_3 = &ConfigList::changeValue;
+    om1_t3 ov1_3 = (om1_t3)v1_3;
+    m1_t4 v1_4 = &ConfigList::updateSelection;
+    om1_t4 ov1_4 = (om1_t4)v1_4;
+    QMetaData *slot_tbl = QMetaObject::new_metadata(5);
+    QMetaData::Access *slot_tbl_access = QMetaObject::new_metaaccess(5);
+    slot_tbl[0].name = "setRootMenu(struct menu*)";
+    slot_tbl[0].ptr = (QMember)ov1_0;
+    slot_tbl_access[0] = QMetaData::Public;
+    slot_tbl[1].name = "updateList(ConfigItem*)";
+    slot_tbl[1].ptr = (QMember)ov1_1;
+    slot_tbl_access[1] = QMetaData::Public;
+    slot_tbl[2].name = "setValue(ConfigItem*,tristate)";
+    slot_tbl[2].ptr = (QMember)ov1_2;
+    slot_tbl_access[2] = QMetaData::Public;
+    slot_tbl[3].name = "changeValue(ConfigItem*)";
+    slot_tbl[3].ptr = (QMember)ov1_3;
+    slot_tbl_access[3] = QMetaData::Public;
+    slot_tbl[4].name = "updateSelection()";
+    slot_tbl[4].ptr = (QMember)ov1_4;
+    slot_tbl_access[4] = QMetaData::Public;
+    typedef void (ConfigList::*m2_t0)(struct menu*);
+    typedef void (QObject::*om2_t0)(struct menu*);
+    typedef void (ConfigList::*m2_t1)();
+    typedef void (QObject::*om2_t1)();
+    typedef void (ConfigList::*m2_t2)();
+    typedef void (QObject::*om2_t2)();
+    m2_t0 v2_0 = &ConfigList::menuSelected;
+    om2_t0 ov2_0 = (om2_t0)v2_0;
+    m2_t1 v2_1 = &ConfigList::parentSelected;
+    om2_t1 ov2_1 = (om2_t1)v2_1;
+    m2_t2 v2_2 = &ConfigList::gotFocus;
+    om2_t2 ov2_2 = (om2_t2)v2_2;
+    QMetaData *signal_tbl = QMetaObject::new_metadata(3);
+    signal_tbl[0].name = "menuSelected(struct menu*)";
+    signal_tbl[0].ptr = (QMember)ov2_0;
+    signal_tbl[1].name = "parentSelected()";
+    signal_tbl[1].ptr = (QMember)ov2_1;
+    signal_tbl[2].name = "gotFocus()";
+    signal_tbl[2].ptr = (QMember)ov2_2;
+    metaObj = QMetaObject::new_metaobject(
+	"ConfigList", "QListView",
+	slot_tbl, 5,
+	signal_tbl, 3,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    metaObj->set_slot_access( slot_tbl_access );
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    return metaObj;
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL menuSelected
+void ConfigList::menuSelected( struct menu* t0 )
+{
+    // No builtin function for signal parameter type struct menu*
+    QConnectionList *clist = receivers("menuSelected(struct menu*)");
+    if ( !clist || signalsBlocked() )
+	return;
+    typedef void (QObject::*RT0)();
+    typedef void (QObject::*RT1)(struct menu*);
+    RT0 r0;
+    RT1 r1;
+    QConnectionListIt it(*clist);
+    QConnection   *c;
+    QSenderObject *object;
+    while ( (c=it.current()) ) {
+	++it;
+	object = (QSenderObject*)c->object();
+	object->setSender( this );
+	switch ( c->numArgs() ) {
+	    case 0:
+#ifdef Q_FP_CCAST_BROKEN
+		r0 = reinterpret_cast<RT0>(*(c->member()));
+#else
+		r0 = (RT0)*(c->member());
+#endif
+		(object->*r0)();
+		break;
+	    case 1:
+#ifdef Q_FP_CCAST_BROKEN
+		r1 = reinterpret_cast<RT1>(*(c->member()));
+#else
+		r1 = (RT1)*(c->member());
+#endif
+		(object->*r1)(t0);
+		break;
+	}
+    }
+}
+
+// SIGNAL parentSelected
+void ConfigList::parentSelected()
+{
+    activate_signal( "parentSelected()" );
+}
+
+// SIGNAL gotFocus
+void ConfigList::gotFocus()
+{
+    activate_signal( "gotFocus()" );
+}
+
+
+const char *ConfigLineEdit::className() const
+{
+    return "ConfigLineEdit";
+}
+
+QMetaObject *ConfigLineEdit::metaObj = 0;
+
+void ConfigLineEdit::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( qstrcmp(QLineEdit::className(), "QLineEdit") != 0 )
+	badSuperclassWarning("ConfigLineEdit","QLineEdit");
+    (void) staticMetaObject();
+}
+
+#ifndef QT_NO_TRANSLATION
+
+QString ConfigLineEdit::tr(const char* s)
+{
+    return qApp->translate( "ConfigLineEdit", s, 0 );
+}
+
+QString ConfigLineEdit::tr(const char* s, const char * c)
+{
+    return qApp->translate( "ConfigLineEdit", s, c );
+}
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* ConfigLineEdit::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    (void) QLineEdit::staticMetaObject();
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    QMetaData::Access *slot_tbl_access = 0;
+    metaObj = QMetaObject::new_metaobject(
+	"ConfigLineEdit", "QLineEdit",
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    metaObj->set_slot_access( slot_tbl_access );
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    return metaObj;
+}
+
+
+const char *ConfigMainWindow::className() const
+{
+    return "ConfigMainWindow";
+}
+
+QMetaObject *ConfigMainWindow::metaObj = 0;
+
+void ConfigMainWindow::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( qstrcmp(QMainWindow::className(), "QMainWindow") != 0 )
+	badSuperclassWarning("ConfigMainWindow","QMainWindow");
+    (void) staticMetaObject();
+}
+
+#ifndef QT_NO_TRANSLATION
+
+QString ConfigMainWindow::tr(const char* s)
+{
+    return qApp->translate( "ConfigMainWindow", s, 0 );
+}
+
+QString ConfigMainWindow::tr(const char* s, const char * c)
+{
+    return qApp->translate( "ConfigMainWindow", s, c );
+}
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* ConfigMainWindow::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    (void) QMainWindow::staticMetaObject();
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    typedef void (ConfigMainWindow::*m1_t0)(QListViewItem*);
+    typedef void (QObject::*om1_t0)(QListViewItem*);
+    typedef void (ConfigMainWindow::*m1_t1)(struct menu*);
+    typedef void (QObject::*om1_t1)(struct menu*);
+    typedef void (ConfigMainWindow::*m1_t2)();
+    typedef void (QObject::*om1_t2)();
+    typedef void (ConfigMainWindow::*m1_t3)();
+    typedef void (QObject::*om1_t3)();
+    typedef void (ConfigMainWindow::*m1_t4)();
+    typedef void (QObject::*om1_t4)();
+    typedef void (ConfigMainWindow::*m1_t5)();
+    typedef void (QObject::*om1_t5)();
+    typedef void (ConfigMainWindow::*m1_t6)();
+    typedef void (QObject::*om1_t6)();
+    typedef void (ConfigMainWindow::*m1_t7)();
+    typedef void (QObject::*om1_t7)();
+    typedef void (ConfigMainWindow::*m1_t8)();
+    typedef void (QObject::*om1_t8)();
+    typedef void (ConfigMainWindow::*m1_t9)();
+    typedef void (QObject::*om1_t9)();
+    typedef void (ConfigMainWindow::*m1_t10)(bool);
+    typedef void (QObject::*om1_t10)(bool);
+    typedef void (ConfigMainWindow::*m1_t11)(bool);
+    typedef void (QObject::*om1_t11)(bool);
+    typedef void (ConfigMainWindow::*m1_t12)(bool);
+    typedef void (QObject::*om1_t12)(bool);
+    typedef void (ConfigMainWindow::*m1_t13)(bool);
+    typedef void (QObject::*om1_t13)(bool);
+    typedef void (ConfigMainWindow::*m1_t14)(bool);
+    typedef void (QObject::*om1_t14)(bool);
+    typedef void (ConfigMainWindow::*m1_t15)();
+    typedef void (QObject::*om1_t15)();
+    typedef void (ConfigMainWindow::*m1_t16)();
+    typedef void (QObject::*om1_t16)();
+    typedef void (ConfigMainWindow::*m1_t17)();
+    typedef void (QObject::*om1_t17)();
+    m1_t0 v1_0 = &ConfigMainWindow::setHelp;
+    om1_t0 ov1_0 = (om1_t0)v1_0;
+    m1_t1 v1_1 = &ConfigMainWindow::changeMenu;
+    om1_t1 ov1_1 = (om1_t1)v1_1;
+    m1_t2 v1_2 = &ConfigMainWindow::listFocusChanged;
+    om1_t2 ov1_2 = (om1_t2)v1_2;
+    m1_t3 v1_3 = &ConfigMainWindow::goBack;
+    om1_t3 ov1_3 = (om1_t3)v1_3;
+    m1_t4 v1_4 = &ConfigMainWindow::loadConfig;
+    om1_t4 ov1_4 = (om1_t4)v1_4;
+    m1_t5 v1_5 = &ConfigMainWindow::saveConfig;
+    om1_t5 ov1_5 = (om1_t5)v1_5;
+    m1_t6 v1_6 = &ConfigMainWindow::saveConfigAs;
+    om1_t6 ov1_6 = (om1_t6)v1_6;
+    m1_t7 v1_7 = &ConfigMainWindow::showSingleView;
+    om1_t7 ov1_7 = (om1_t7)v1_7;
+    m1_t8 v1_8 = &ConfigMainWindow::showSplitView;
+    om1_t8 ov1_8 = (om1_t8)v1_8;
+    m1_t9 v1_9 = &ConfigMainWindow::showFullView;
+    om1_t9 ov1_9 = (om1_t9)v1_9;
+    m1_t10 v1_10 = &ConfigMainWindow::setShowAll;
+    om1_t10 ov1_10 = (om1_t10)v1_10;
+    m1_t11 v1_11 = &ConfigMainWindow::setShowDebug;
+    om1_t11 ov1_11 = (om1_t11)v1_11;
+    m1_t12 v1_12 = &ConfigMainWindow::setShowRange;
+    om1_t12 ov1_12 = (om1_t12)v1_12;
+    m1_t13 v1_13 = &ConfigMainWindow::setShowName;
+    om1_t13 ov1_13 = (om1_t13)v1_13;
+    m1_t14 v1_14 = &ConfigMainWindow::setShowData;
+    om1_t14 ov1_14 = (om1_t14)v1_14;
+    m1_t15 v1_15 = &ConfigMainWindow::showIntro;
+    om1_t15 ov1_15 = (om1_t15)v1_15;
+    m1_t16 v1_16 = &ConfigMainWindow::showAbout;
+    om1_t16 ov1_16 = (om1_t16)v1_16;
+    m1_t17 v1_17 = &ConfigMainWindow::saveSettings;
+    om1_t17 ov1_17 = (om1_t17)v1_17;
+    QMetaData *slot_tbl = QMetaObject::new_metadata(18);
+    QMetaData::Access *slot_tbl_access = QMetaObject::new_metaaccess(18);
+    slot_tbl[0].name = "setHelp(QListViewItem*)";
+    slot_tbl[0].ptr = (QMember)ov1_0;
+    slot_tbl_access[0] = QMetaData::Public;
+    slot_tbl[1].name = "changeMenu(struct menu*)";
+    slot_tbl[1].ptr = (QMember)ov1_1;
+    slot_tbl_access[1] = QMetaData::Public;
+    slot_tbl[2].name = "listFocusChanged()";
+    slot_tbl[2].ptr = (QMember)ov1_2;
+    slot_tbl_access[2] = QMetaData::Public;
+    slot_tbl[3].name = "goBack()";
+    slot_tbl[3].ptr = (QMember)ov1_3;
+    slot_tbl_access[3] = QMetaData::Public;
+    slot_tbl[4].name = "loadConfig()";
+    slot_tbl[4].ptr = (QMember)ov1_4;
+    slot_tbl_access[4] = QMetaData::Public;
+    slot_tbl[5].name = "saveConfig()";
+    slot_tbl[5].ptr = (QMember)ov1_5;
+    slot_tbl_access[5] = QMetaData::Public;
+    slot_tbl[6].name = "saveConfigAs()";
+    slot_tbl[6].ptr = (QMember)ov1_6;
+    slot_tbl_access[6] = QMetaData::Public;
+    slot_tbl[7].name = "showSingleView()";
+    slot_tbl[7].ptr = (QMember)ov1_7;
+    slot_tbl_access[7] = QMetaData::Public;
+    slot_tbl[8].name = "showSplitView()";
+    slot_tbl[8].ptr = (QMember)ov1_8;
+    slot_tbl_access[8] = QMetaData::Public;
+    slot_tbl[9].name = "showFullView()";
+    slot_tbl[9].ptr = (QMember)ov1_9;
+    slot_tbl_access[9] = QMetaData::Public;
+    slot_tbl[10].name = "setShowAll(bool)";
+    slot_tbl[10].ptr = (QMember)ov1_10;
+    slot_tbl_access[10] = QMetaData::Public;
+    slot_tbl[11].name = "setShowDebug(bool)";
+    slot_tbl[11].ptr = (QMember)ov1_11;
+    slot_tbl_access[11] = QMetaData::Public;
+    slot_tbl[12].name = "setShowRange(bool)";
+    slot_tbl[12].ptr = (QMember)ov1_12;
+    slot_tbl_access[12] = QMetaData::Public;
+    slot_tbl[13].name = "setShowName(bool)";
+    slot_tbl[13].ptr = (QMember)ov1_13;
+    slot_tbl_access[13] = QMetaData::Public;
+    slot_tbl[14].name = "setShowData(bool)";
+    slot_tbl[14].ptr = (QMember)ov1_14;
+    slot_tbl_access[14] = QMetaData::Public;
+    slot_tbl[15].name = "showIntro()";
+    slot_tbl[15].ptr = (QMember)ov1_15;
+    slot_tbl_access[15] = QMetaData::Public;
+    slot_tbl[16].name = "showAbout()";
+    slot_tbl[16].ptr = (QMember)ov1_16;
+    slot_tbl_access[16] = QMetaData::Public;
+    slot_tbl[17].name = "saveSettings()";
+    slot_tbl[17].ptr = (QMember)ov1_17;
+    slot_tbl_access[17] = QMetaData::Public;
+    metaObj = QMetaObject::new_metaobject(
+	"ConfigMainWindow", "QMainWindow",
+	slot_tbl, 18,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    metaObj->set_slot_access( slot_tbl_access );
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    return metaObj;
+}

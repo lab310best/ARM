@@ -1,0 +1,1 @@
+#define CONFIG_ARCH_SMDK2410 1

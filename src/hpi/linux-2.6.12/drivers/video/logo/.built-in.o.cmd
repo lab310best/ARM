@@ -1,0 +1,1 @@
+cmd_drivers/video/logo/built-in.o :=  /usr/local/arm/3.4.1/bin/arm-linux-ld -EL   -r -o drivers/video/logo/built-in.o drivers/video/logo/logo.o drivers/video/logo/logo_linux_tft16.o drivers/video/logo/logo_linux_vga16.o drivers/video/logo/logo_linux_clut224.o

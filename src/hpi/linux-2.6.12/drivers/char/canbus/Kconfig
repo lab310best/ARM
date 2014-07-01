@@ -1,0 +1,11 @@
+#
+# MCP2510 configuration
+#
+menu "Can--Bus"
+
+config MCP
+	tristate "MCP2510 DRIVER NEW!!!"
+	---help---
+	can driver!
+
+endmenu

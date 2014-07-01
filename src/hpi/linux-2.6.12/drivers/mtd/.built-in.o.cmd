@@ -1,0 +1,1 @@
+cmd_drivers/mtd/built-in.o :=  /usr/local/arm/3.4.1/bin/arm-linux-ld -EL   -r -o drivers/mtd/built-in.o drivers/mtd/mtdcore.o drivers/mtd/mtdpart.o drivers/mtd/mtdconcat.o drivers/mtd/mtdchar.o drivers/mtd/mtdblock.o drivers/mtd/mtd_blkdevs.o drivers/mtd/chips/built-in.o drivers/mtd/maps/built-in.o drivers/mtd/devices/built-in.o drivers/mtd/nand/built-in.o
