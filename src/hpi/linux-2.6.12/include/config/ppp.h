@@ -1,1 +1,1 @@
-#define CONFIG_PPP 1
+#undef CONFIG_PPP

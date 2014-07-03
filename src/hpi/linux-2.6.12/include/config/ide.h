@@ -1,1 +1,1 @@
-#define CONFIG_IDE 1
+#undef CONFIG_IDE

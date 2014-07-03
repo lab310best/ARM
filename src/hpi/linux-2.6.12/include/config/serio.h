@@ -1,1 +1,1 @@
-#define CONFIG_SERIO 1
+#undef CONFIG_SERIO

@@ -258,7 +258,6 @@ deps_drivers/input/mousedev.o := \
   include/linux/pm.h \
   include/linux/devfs_fs_kernel.h \
     $(wildcard include/config/devfs/fs.h) \
-  include/linux/miscdevice.h \
 
 drivers/input/mousedev.o: $(deps_drivers/input/mousedev.o)
 

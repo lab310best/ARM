@@ -3,7 +3,6 @@ cmd_scripts/bin2c := gcc -Wp,-MD,scripts/.bin2c.d -Wall -Wstrict-prototypes -O2 
 deps_scripts/bin2c := \
   scripts/bin2c.c \
   /usr/include/stdc-predef.h \
-  /usr/include/i386-linux-gnu/bits/predefs.h \
   /usr/include/stdio.h \
   /usr/include/features.h \
   /usr/include/i386-linux-gnu/sys/cdefs.h \

@@ -1,1 +1,1 @@
-#define CONFIG_BT 1
+#undef CONFIG_BT

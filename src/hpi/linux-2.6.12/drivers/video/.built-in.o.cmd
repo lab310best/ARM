@@ -1,1 +1,1 @@
-cmd_drivers/video/built-in.o :=  /usr/local/arm/3.4.1/bin/arm-linux-ld -EL   -r -o drivers/video/built-in.o drivers/video/console/built-in.o drivers/video/logo/built-in.o drivers/video/backlight/built-in.o drivers/video/fb.o drivers/video/cfbfillrect.o drivers/video/cfbcopyarea.o drivers/video/cfbimgblt.o drivers/video/softcursor.o drivers/video/s3c2410fb.o drivers/video/vfb.o
+cmd_drivers/video/built-in.o :=  /usr/local/arm/3.4.1/bin/arm-linux-ld -EL   -r -o drivers/video/built-in.o drivers/video/console/built-in.o drivers/video/backlight/built-in.o

@@ -325,7 +325,6 @@ deps_net/socket.o := \
     $(wildcard include/config/v850.h) \
   include/linux/key.h \
   include/linux/compat.h \
-  include/linux/wireless.h \
   include/asm/unistd.h \
   include/net/compat.h \
   include/net/sock.h \

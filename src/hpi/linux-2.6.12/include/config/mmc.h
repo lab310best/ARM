@@ -1,1 +1,1 @@
-#define CONFIG_MMC 1
+#undef CONFIG_MMC

@@ -1,7 +1,7 @@
-/* This file is auto generated, version 20 */
+/* This file is auto generated, version 22 */
 #define UTS_MACHINE "arm"
-#define UTS_VERSION "#20 Tue Jul 1 13:53:50 CST 2014"
-#define LINUX_COMPILE_TIME "13:53:50"
+#define UTS_VERSION "#22 Thu Jul 3 10:06:45 CST 2014"
+#define LINUX_COMPILE_TIME "10:06:45"
 #define LINUX_COMPILE_BY "holen"
 #define LINUX_COMPILE_HOST "hadoop"
 #define LINUX_COMPILE_DOMAIN ""

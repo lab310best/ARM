@@ -1,1 +1,1 @@
-#define CONFIG_MCP 1
+#undef CONFIG_MCP

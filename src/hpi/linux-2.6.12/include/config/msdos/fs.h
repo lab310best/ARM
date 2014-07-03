@@ -1,1 +1,1 @@
-#define CONFIG_MSDOS_FS 1
+#undef CONFIG_MSDOS_FS

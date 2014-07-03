@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux kernel version: 2.6.12-wcdma
-# Sun Jan 12 14:46:42 2014
+# Sun Jun 22 12:55:38 2014
 #
 CONFIG_ARM=y
 CONFIG_MMU=y
@@ -21,7 +21,7 @@ CONFIG_INIT_ENV_ARG_LIMIT=32
 #
 # General setup
 #
-CONFIG_LOCALVERSION="ZPS20110916"
+CONFIG_LOCALVERSION="ZPS20110811"
 CONFIG_SWAP=y
 CONFIG_SYSVIPC=y
 # CONFIG_POSIX_MQUEUE is not set

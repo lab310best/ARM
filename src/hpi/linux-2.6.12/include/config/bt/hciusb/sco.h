@@ -1,1 +1,0 @@
-#define CONFIG_BT_HCIUSB_SCO 1

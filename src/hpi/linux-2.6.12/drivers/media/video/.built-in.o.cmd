@@ -1,1 +1,1 @@
-cmd_drivers/media/video/built-in.o :=  /usr/local/arm/3.4.1/bin/arm-linux-ld -EL   -r -o drivers/media/video/built-in.o drivers/media/video/videodev.o drivers/media/video/v4l2-common.o drivers/media/video/v4l1-compat.o
+cmd_drivers/media/video/built-in.o :=  rm -f drivers/media/video/built-in.o; /usr/local/arm/3.4.1/bin/arm-linux-ar rcs drivers/media/video/built-in.o

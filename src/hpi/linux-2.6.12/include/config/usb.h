@@ -1,1 +1,1 @@
-#define CONFIG_USB 1
+#undef CONFIG_USB

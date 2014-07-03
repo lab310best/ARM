@@ -1,1 +1,0 @@
-#define CONFIG_LOGO_LINUX_TFT16 1

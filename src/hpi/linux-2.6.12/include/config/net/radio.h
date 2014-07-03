@@ -1,1 +1,1 @@
-#define CONFIG_NET_RADIO 1
+#undef CONFIG_NET_RADIO

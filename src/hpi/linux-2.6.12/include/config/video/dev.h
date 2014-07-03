@@ -1,1 +1,1 @@
-#define CONFIG_VIDEO_DEV 1
+#undef CONFIG_VIDEO_DEV

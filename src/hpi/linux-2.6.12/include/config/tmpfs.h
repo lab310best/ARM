@@ -1,1 +1,1 @@
-#undef CONFIG_TMPFS
+#define CONFIG_TMPFS 1

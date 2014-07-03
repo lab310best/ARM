@@ -1,1 +1,1 @@
-#define CONFIG_JFFS2_FS 1
+#undef CONFIG_JFFS2_FS

@@ -342,8 +342,6 @@ deps_net/core/dev.o := \
   include/linux/netpoll.h \
   include/linux/delay.h \
   include/asm/delay.h \
-  include/linux/wireless.h \
-  include/net/iw_handler.h \
 
 net/core/dev.o: $(deps_net/core/dev.o)
 

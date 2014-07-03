@@ -1,1 +1,0 @@
-#undef CONFIG_FB_S3C2410_DEBUG
