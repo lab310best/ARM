@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.12-wcdma
- * Thu Jul  3 10:06:05 2014
+ * Thu Jul  3 18:30:45 2014
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_ARM 1
@@ -856,7 +856,7 @@
 /*
  * Kernel hacking
  */
-#undef CONFIG_PRINTK_TIME
+#define CONFIG_PRINTK_TIME 1
 #define CONFIG_DEBUG_KERNEL 1
 #undef CONFIG_MAGIC_SYSRQ
 #define CONFIG_LOG_BUF_SHIFT 14
