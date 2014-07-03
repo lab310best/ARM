@@ -96,6 +96,8 @@ static int g_RdBufSta = BUF_EMPTY;
 static int g_WrBufLeft = HPI_PACKET_SIZE;
 static unsigned char * wr_p = wrBuf;
 
+static int packet_length = 0;
+
 void msleep(unsigned int msecs);
 
 static inline void hpic_write(u32 u)
@@ -204,6 +206,8 @@ irqreturn_t hpi_wr_interrupt(int irq, void *dev_id, struct pt_regs *regs)
 	hpid_write(1);
 	wr_p = wrBuf;
 	g_WrBufLeft = HPI_PACKET_SIZE;
+	DBG("packet length to DSP IS (%d) ..." , packet_length);
+	packet_length = 0;
 	spin_unlock_irqrestore(&hpi_dev.wrBufLock, wrBufFlags);
 	s3c2410_gpio_setpin(S3C2410_GPF6, 0);
 
@@ -304,6 +308,7 @@ static ssize_t hpi_write (struct file *filp, const char __user *buf, size_t coun
 	copy_from_user(wr_p, buf, count);
 	wr_p += count;
 	g_WrBufLeft -= count;
+	packet_length += count;
 	spin_unlock_irqrestore(&hpi_dev.wrBufLock, flags);
 
 	g_write_num++;

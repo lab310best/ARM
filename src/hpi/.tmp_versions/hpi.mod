@@ -1,2 +1,2 @@
-/home/holen/Downloads/ARM/src/hpi/hpi.ko
-/home/holen/Downloads/ARM/src/hpi/hpi.o
+/home/holen/git/basic/ARM/src/hpi/hpi.ko
+/home/holen/git/basic/ARM/src/hpi/hpi.o
